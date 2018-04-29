@@ -17,7 +17,7 @@
 
 +-- .babelrc // babel配置文件
 
-+-- eslintrc // eslint配置文件
++-- .eslintrc // eslint配置文件
 
 +-- gitignore
 
