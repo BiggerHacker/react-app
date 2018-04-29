@@ -6,12 +6,15 @@ const isDev = process.env.NODE_ENV === 'development'
 
 const config = {
   entry: {
-    app: path.join(__dirname, '../src/app.js')
+    app: path.join(__dirname, '../src/index.js')
   },
   output: {
     filename: '[name].[hash].js',
     path: path.join(__dirname, '../dist'),
     publicPath: '/public/'
+  },
+  resolve: {
+    extensions: ['.js', '.jsx'],
   },
   module: {
     rules: [
@@ -71,7 +74,7 @@ if (isDev) {
   config.entry = {
     app: [
       'react-hot-loader/patch',
-      path.join(__dirname, '../src/app.js')
+      path.join(__dirname, '../src/index.js')
     ]
   }
   config.devServer = {

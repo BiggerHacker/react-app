@@ -7,9 +7,9 @@
 
 +-- src // 实际开发时客户端代码存放目录
 
-|   +-- app.js // 入口文件
+|   +-- App.js // react组件
 
-|   +-- App.jsx // react组件
+|   +-- index.jsx // 入口文件
 
 +-- template
 
