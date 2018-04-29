@@ -26,7 +26,7 @@
 +-- yarn.lock
 ```
 
-基于webpack配置的ES6+react组合开发
+# 基于webpack配置的ES6+react组合开发
 * ```git clone https://github.com/BiggerHacker/react-app.git``` 把项目clone到本地
 
 * ```cd react-app``` 进入项目目录
